@@ -1,0 +1,85 @@
+*{padding: 0; margin: 0; font-family: Arial, Helvetica, sans-serif;}
+
+header{
+    padding-top: 1em;
+    padding-bottom: 1em;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: fixed;
+}
+
+.container{
+    background-image: url(./img/Design\ sem\ nome.png);
+    width: 100%;
+    height: 100vh;
+    
+}
+
+.classificar{
+    
+    padding-top: 2em;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.cima{
+    text-align: center;
+}
+
+.gifp{
+    image-rendering:pixelated;
+    width: 8em;
+}
+
+.baixo{
+    display: block;
+
+}
+
+.seg{
+    background-color: aqua;
+    margin-bottom: 0.7em;
+    margin-top: 0.7em;
+    margin-left: -5em;
+    margin-right: -5em;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.7em;
+    border-radius: 20px;
+}
+
+.pesquisa{
+    position: fixed;
+    background-color: rgb(145, 145, 194);
+    padding-left: 1em;
+    padding-right: 2em;
+    height: 11em;
+}
+
+.pesqi{
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border-radius: 1em;
+    border: 0;
+    border: 2px solid black;
+    background-color: rgba(240, 248, 255, 0);
+    font-size: 1m;
+    outline: none;
+
+}
+
+.divd{
+    display: block;
+    text-align: center;
+}
+
+#pc{
+    background-color: rgb(102, 27, 172);
+    color: white;
+    border: none;
+    border: 1px solid black;
+    border-radius: 30px;
+    cursor: pointer;
+}
